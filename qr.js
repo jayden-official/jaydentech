@@ -66,7 +66,7 @@ ____________________________________
 ╔════◇
 ║『 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍𝙎』
 
-║ ❒ JAYDEN TECH: _https://wa.me/25486827982_
+║ ❒ JAYDEN TECH: _https://wa.me/254786827982_
 
 ║ ❒ JAYDEN TECH: _https://wa.me/254794597254_
 
@@ -75,7 +75,7 @@ ____________________________________
 ║ 『••• OWNER INFO •••』
 ║ 
 
-║ ❒ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/25486827982_
+║ ❒ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/254786827982_
 
 ║ ❒ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/KP88q2qusUtIXhY8mFsjZd_
 
