@@ -28,7 +28,7 @@ const {
 } = require("node:fs/promises")
 router.get('/', async (req, res) => {
 	const id = makeid();
-	async function SIGMA_MD_QR_CODE() {
+	async function HYPER_MD_QR_CODE() {
 		const {
 			state,
 			saveCreds
@@ -58,37 +58,37 @@ router.get('/', async (req, res) => {
 				   let b64data = Buffer.from(data).toString('base64');
 				   let session = await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 	
-				   let SIGMA_MD_TEXT = `
-*𝙈𝘼𝘾 𝙈𝘿 𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘾𝙃*
-*𝙈𝘼𝘾 𝙏𝙀𝘾𝙃*
-*𝙇𝙀𝙂𝙄𝙏 𝘽𝙊𝙏*
+				   let HYPER_MD_TEXT = `
+*HYPER MD CONNECTED*
+*JAYDEN TECH*
+*LEGIT WHATSAPP BOT*
 ____________________________________
 ╔════◇
 ║『 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍𝙎』
 
-║ ❒ 𝙈𝘼𝘾 𝙏𝙀𝘾𝙃: _https://wa.me/256705036288_
+║ ❒ JAYDEN TECH: _https://wa.me/25486827982_
 
-║ ❒ 𝙄𝘽𝙍𝘼𝙃𝙄𝙈 𝙏𝙀𝘾𝙃: _https://wa.me/message/74F2PC4JA4F3P1_
+║ ❒ JAYDEN TECH: _https://wa.me/254794597254_
 
 ╚════════════════════❒
 ╔═════◇
 ║ 『••• OWNER INFO •••』
-║ ❒ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: _https://www.youtube.com/@ibrahimmdgpt_
+║ 
 
-║ ❒ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/256705036288_
+║ ❒ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/25486827982_
 
-║ ❒ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/GoPZhE9zc6Y3ul0RnD4HXw_
+║ ❒ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/KP88q2qusUtIXhY8mFsjZd_
 
-║ ❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VaWGyGVJZg48vgpHBa31_
+║ 
 
 ║ 
 ╚════════════════════╝ 
- *𝙈𝘼𝘾 𝙈𝘿*
+ *HYPER MD*
 ___________________________________
 
 Don't Forget To Give Star To My Repo`
 					
-	 await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
+	 await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id,{text:HYPER_MD_TEXT},{quoted:session})
 
 
 
@@ -97,7 +97,7 @@ Don't Forget To Give Star To My Repo`
 					return await removeFile("temp/" + id);
 				} else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
 					await delay(10000);
-					SIGMA_MD_QR_CODE();
+					HYPER_MD_QR_CODE();
 				}
 			});
 		} catch (err) {
@@ -110,6 +110,6 @@ Don't Forget To Give Star To My Repo`
 			await removeFile("temp/" + id);
 		}
 	}
-	return await SIGMA_MD_QR_CODE()
+	return await HYPER_MD_QR_CODE()
 });
 module.exports = router
