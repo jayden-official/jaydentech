@@ -20,7 +20,7 @@ function removeFile(FilePath){
 router.get('/', async (req, res) => {
     const id = makeid();
     let num = req.query.number;
-        async function HYPER_MD_PAIR_CODE() {
+        async function DENKING_MD_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -56,15 +56,15 @@ router.get('/', async (req, res) => {
                let b64data = Buffer.from(data).toString('base64');
                let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 
-               let HYPER_MD_TEXT = `
-*HYPER MD CONNECTED*
-*JAYDEN TECH*
-*LEGIT WHATSAPP BOT*
+               let DENKING_MD_TEXT = `
+*DENKING MD CONNECTED*
+*DENKING TECH*
+*LEGIT WHATSAPP BOT CODED BY DENKING*
 ____________________________________
 ╔════◇
 ║『 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍𝙎』
 
-║ ❒ JAYDEN TECH: _https://wa.me/254786827982_
+║ ❒ DENKING TECH: _https://wa.me/254725099642_
 
 ║ ❒ JAYDEN TECH: _https://wa.me/254794597254_
 
@@ -73,19 +73,19 @@ ____________________________________
 ║ 『••• OWNER INFO •••』
 ║ 
 
-║ ❒ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/254786827982_
+║ ❒ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/254725290208_
 
-║ ❒ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/KP88q2qusUtIXhY8mFsjZd_
+║ ❒ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/Cxdepa0BrLd62ZOe8QAE2U_
 
 ║ 
 
 ║ 
 ╚════════════════════╝ 
- *HYPER MD*
+ *DENKING MD*
 ___________________________________
 
 Don't Forget To Give Star To My Repo`
- await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:HYPER_MD_TEXT},{quoted:session})
+ await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:DENKING_MD_TEXT},{quoted:session})
  
 
         await delay(100);
@@ -104,6 +104,6 @@ Don't Forget To Give Star To My Repo`
          }
         }
     }
-    return await HYPER_MD_PAIR_CODE()
+    return await DENKING_MD_PAIR_CODE()
 });
 module.exports = router
